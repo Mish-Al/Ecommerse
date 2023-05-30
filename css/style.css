@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://i.postimg.cc/9F5QRbkK/GREYYYYY.jpg);
+}
+header {
+    color: whitesmoke;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 64px;
+    font-size: 16px;
+    position: relative;
+}
+.header h1{
+    text-transform: uppercase;
+    font-size: 1.7em;
+    letter-spacing: 1px;
+}
+
+.menu{
+    display: flex;
+}
+.menu button{
+    display: none;
+}
+.menu-list{
+    list-style: none;
+    display: flex;
+}
+.menu-list li{
+    display: inline-block;
+    margin-left: 32px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+.menu-list li.active,
+.menu-list li:hover{
+    color: rgb();
+}
+
+.main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.right img{
+    width: 50%;
+}
+.left{
+    max-width: 45%;
+    padding: 40px 64px;
+}
+.right{
+    padding: 40px 48px;
+}
+.title{
+    color: rgb(226, 213, 213);
+    font-size: 3.2em;
+    width: 50%;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+.msg{
+    color: ;
+    font-size: 1.1em;
+    letter-spacing: 0.7px;
+    line-height: 32px;
+    margin-bottom: 48px;
+    color: rgb(226, 213, 213);
+}
+button.cta {
+    border: none;
+    outline: none;
+    background-color:  rgb(81, 80, 80);
+    color: rgb(226, 213, 213);
+    padding: 18px 32px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
